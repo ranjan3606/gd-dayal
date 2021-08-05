@@ -1,0 +1,2257 @@
+<!DOCTYPE html>
+
+
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+
+
+<!-- Mirrored from www.panditjioncall.com/services/gemstone-recommendation by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Dec 2020 10:03:51 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+   <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Best Gemstone Recommendation Online in India - Panditjioncall</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta name="description" content="Learn which gemstone to wear by consulting our experts for free online gemstone recommendation. Avail the best gemstone recommendation only at panditjioncall.com." />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="MobileOptimized" content="320" />
+    <!--srart theme style -->
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/font-awesome.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/owl.theme.default.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/magnific-popup.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../assests/assets/css/responsive.css" />
+	
+    <!-- favicon links -->
+    <link rel="shortcut icon" type="image/png" href="../assests/assets/images/header/favicon.ico" />
+	<link rel="canonical" href="gemstone-recommendation.html" />
+
+	<style>
+	label {font-weight:normal ! important}
+	.formlogin3{  border: 1px solid #d7d8db;padding: 10px; width: 25%}
+	</style>
+		
+	   <link href="../assests/assets/dist/sweetalert.css" rel="stylesheet">
+<script  src="../assests/assets/dist/sweetalert-dev.js"></script>
+<script  src="../assests/assets/dist/sweetalert.min.js"></script>
+   <script >	
+        function addCard(id) {
+        	//alert(id);
+            var xmlhttp = false;
+
+            if (!xmlhttp && typeof XMLHttpRequest != 'undefined') {
+                xmlhttp = new XMLHttpRequest();
+            }
+            if (xmlhttp) {
+				
+                var product_id = encodeURIComponent(document.getElementById("product_id"+id).value);
+          //  alert(product_id);
+                var quantity = '1';
+                
+               //alert(quantity);
+               
+                  var parameters = "product_id="+product_id+"&quantity="+quantity;
+                //alert(parameters);
+                xmlhttp.open('POST.html', '../login.html');
+
+                xmlhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+
+                xmlhttp.send(parameters);
+
+                xmlhttp.onreadystatechange = function()
+
+                {
+                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+
+                    {
+                    	//alert(xmlhttp.responseText);
+                   window.location.href = '../cart'
+//
+                    }
+
+                }
+
+                delete xmlhttp;
+
+            }
+
+        }
+
+</script>
+
+
+
+
+
+	
+
+
+
+
+<script> 
+function CheckValidationAvyu()								 
+{ 
+	var boyname = document.forms["AvyuForm"]["fullname"];
+	var email = document.forms["AvyuForm"]["email"];
+	var phone = document.forms["AvyuForm"]["phone_number"];
+	var gender = document.forms["AvyuForm"]["gender"];
+	var purpose = document.forms["AvyuForm"]["purpose"];
+	var weight = document.forms["AvyuForm"]["weight"];
+	var birthplace = document.forms["AvyuForm"]["birthplace"];
+	var country = document.forms["AvyuForm"]["country"];
+
+    var birtdhdate = document.forms["AvyuForm"]["birtdhdate"];
+    var birthtime = document.forms["AvyuForm"]["birthtime"];
+
+    var num1 = document.forms["AvyuForm"]["num1"];
+    var num2 = document.forms["AvyuForm"]["num2"];
+    var captcha = document.forms["AvyuForm"]["captcha"];
+    var total = parseInt(num1.value)+parseInt(num2.value);
+	
+
+	  
+
+	if (boyname.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please enter  name', 'error');
+	
+	 document.getElementById("nameerror").innerHTML = "required";
+      boyname.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror").innerHTML = "";
+	   }
+
+	   
+	   
+	   if (email.value == "")								 
+	{ 
+	
+		swal('Oops...', 'Please enter a valid e-mail address.', 'error');
+		document.getElementById("nameerror2").innerHTML = "*";
+		email.focus(); 
+		
+		return false; 
+	} 
+	else {
+		 document.getElementById("nameerror2").innerHTML = "";
+	   }
+
+	if (email.value.indexOf("@", 0) < 0)				 
+	{ 
+		
+		swal('Oops...', 'Please enter a valid e-mail address.', 'error');
+		document.getElementById("nameerror2").innerHTML = "Please enter a valid e-mail address";
+		
+		email.focus(); 
+		return false; 
+	} 
+	else {
+		 document.getElementById("nameerror2").innerHTML = "";
+	   }
+
+	if (email.value.indexOf(".", 0) < 0)				 
+	{ 
+		
+		swal('Oops...', 'Please enter a valid e-mail address.', 'error');
+		document.getElementById("nameerror2").innerHTML = "Please enter a valid e-mail address";
+		email.focus(); 
+		return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror2").innerHTML = "";
+	   }
+  
+  
+    
+	  if (phone.value == "")						 
+	{ 
+	 
+		swal('Oops...', 'Please enter your telephone number.', 'error');
+		document.getElementById("nameerror3").innerHTML = "required";
+		phone.focus(); 
+		return false; 
+	} 
+	else {
+		 document.getElementById("nameerror3").innerHTML = "";
+	   }
+  
+	   if (gender.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please select gender ', 'error');
+	
+	 document.getElementById("nameerror4").innerHTML = "required";
+      gender.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror4").innerHTML = "";
+	   }
+	   
+	   
+	   if (purpose.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please enter  purpose', 'error');
+	
+	 document.getElementById("nameerror5").innerHTML = "required";
+      purpose.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror5").innerHTML = "";
+	   }
+	   if (weight.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please enter  weight', 'error');
+	
+	 document.getElementById("nameerror6").innerHTML = "required";
+      weight.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror6").innerHTML = "";
+	   }
+	   
+	    if (birthplace.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please enter  birth place', 'error');
+	
+	 document.getElementById("nameerror7").innerHTML = "required";
+      birthplace.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror7").innerHTML = "";
+	   }
+	   
+	    if (country.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please enter country', 'error');
+	
+	 document.getElementById("nameerror8").innerHTML = "required";
+      country.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror8").innerHTML = "";
+	   }
+	   
+	 
+	   	   if (birtdhdate.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please enter  birth date', 'error');
+	
+	 document.getElementById("nameerror10").innerHTML = "required";
+      birtdhdate.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror10").innerHTML = "";
+	   }
+	   
+	    if (birthtime.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please enter birth time', 'error');
+	
+	 document.getElementById("nameerror11").innerHTML = "required";
+      birthtime.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror11").innerHTML = "";
+	   }
+	   
+	   	
+if(captcha.value!="")
+  {
+    
+   if (total==captcha.value) 
+   {
+
+    return true;
+ }
+else{
+
+     swal('*', 'Incorrect captcha, please try again.', 'error');
+     return false; 
+  }
+} else{
+    swal('*', 'Enter captcha, please try again.', 'error');
+     return false; 
+}
+  return true; 
+}
+
+</script>
+
+
+<style>
+.alertmsg{color: red;}
+</style>
+	
+	</head>
+
+<body>
+    <!-- preloader Start -->
+
+    <!-- hs top header Start -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-169200457-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-169200457-1');
+</script>
+
+<script>
+
+/*
+
+function CheckValidationAvyuFeedback()								 
+{ 
+	var boyname = document.forms["AvyuFeedbackForm"]["fullname"];
+	var email = document.forms["AvyuFeedbackForm"]["email"];
+	var phone = document.forms["AvyuFeedbackForm"]["phone_number"];
+	var message = document.forms["AvyuFeedbackForm"]["message"];
+    var num1 = document.forms["AvyuFeedbackForm"]["num1"];
+    var num2 = document.forms["AvyuFeedbackForm"]["num2"];
+    var captcha = document.forms["AvyuFeedbackForm"]["captcha"];
+    var total = parseInt(num1.value)+parseInt(num2.value);
+ 
+	
+//alert(boyname);
+	  
+
+	if (boyname.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please enter  name', 'error');
+	
+	 document.getElementById("nameerror").innerHTML = "required";
+      boyname.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror").innerHTML = "";
+	   }
+
+	   
+	   
+	   if (email.value == "")								 
+	{ 
+	
+		swal('Oops...', 'Please enter a valid e-mail address.', 'error');
+		document.getElementById("nameerror2").innerHTML = "*";
+		email.focus(); 
+		
+		return false; 
+	} 
+	else {
+		 document.getElementById("nameerror2").innerHTML = "";
+	   }
+
+	if (email.value.indexOf("@", 0) < 0)				 
+	{ 
+		
+		swal('Oops...', 'Please enter a valid e-mail address.', 'error');
+		document.getElementById("nameerror2").innerHTML = "Please enter a valid e-mail address";
+		
+		email.focus(); 
+		return false; 
+	} 
+	else {
+		 document.getElementById("nameerror2").innerHTML = "";
+	   }
+
+	if (email.value.indexOf(".", 0) < 0)				 
+	{ 
+		
+		swal('Oops...', 'Please enter a valid e-mail address.', 'error');
+		document.getElementById("nameerror2").innerHTML = "Please enter a valid e-mail address";
+		email.focus(); 
+		return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror2").innerHTML = "";
+	   }
+  
+  
+    
+	  if (phone.value == "")						 
+	{ 
+	 
+		swal('Oops...', 'Please enter your telephone number.', 'error');
+		document.getElementById("nameerror3").innerHTML = "required";
+		phone.focus(); 
+		return false; 
+	} 
+	else {
+		 document.getElementById("nameerror3").innerHTML = "";
+	   }
+  
+	   if (message.value == "")								 
+	{ 
+		
+		
+	  swal('Oops...', 'please enter message  ', 'error');
+	
+	 document.getElementById("nameerror4").innerHTML = "required";
+      message.focus();
+	  return false; 
+	} 
+	
+	else {
+		 document.getElementById("nameerror4").innerHTML = "";
+	   }
+	   
+	   
+
+if(captcha.value!="")
+  {
+    
+   if (total==captcha.value) 
+   {
+
+    return true;
+ }
+else{
+
+     swal('*', 'Incorrect captcha, please try again.', 'error');
+     return false; 
+    }
+} else{
+      swal('*', 'Enter captcha, please try again.', 'error');
+     return false; 
+}
+    return true; 
+}
+*/
+</script>
+<script type="application/ld+json">
+        { "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Panditjioncall.com",
+          "url": "https://www.panditjioncall.com",
+          "logo": "https://www.panditjioncall.com/upload/home/21-09-19-064903logo.png",
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+91-141-669-1111",
+            "contactType": "customer service"
+          },
+          "sameAs": [
+            "https://www.facebook.com/Panditjioncallofficial",
+            "https://twitter.com/panditjioncall2",
+            "https://www.linkedin.com/in/panditjioncall"
+          ]
+        }
+      </script>
+	<meta  content="321141693492-nbicmpfih6ji5eski6jp165blu19q154.apps.googleusercontent.com">
+<link href="https://fonts.googleapis.com/css?family=ZCOOL+XiaoWei" rel="stylesheet">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>   
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	
+		
+<style>
+.alertmsg{color: red;}
+</style>
+	<style>
+	label {font-weight:normal ! important}
+	   .formlogin3{  border: 1px solid #d7d8db;padding: 10px;width:30% !important;}
+	</style>
+
+	
+	
+	
+	
+	
+	
+	<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '914490679054216'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" 
+src="https://www.facebook.com/tr?id=914490679054216&amp;ev=PageView&amp;noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+	
+	<style>
+	    .as2 p{ font-size:20px;}
+	    @media(min-width:320px)and (max-width:720px){
+	    
+	    .as1 {float: right; width:45%;font-size:8px
+	    }
+		.as1 h5{font-size:15px }
+		.as2 h5{font-size:12px }
+		.as2{    float: left;
+    margin-top: -1%;
+    margin-bottom: 15px;
+	width:50%;
+	font-size:10px;
+	margin-left:-5%
+}
+.as2 p{ font-size:15px;}}
+	 @media(min-width:600px)
+{
+	 .as1 {float: right; width:45%;font-size:8px
+	    }
+		.as2 p{ font-size:15px;}
+		.as2{    
+    margin-top: -1%;
+    margin-bottom: 15px;
+	width:50%;
+	font-size:10px;
+	margin-left:-3%
+}
+}	
+
+
+	</style>       
+ 
+<a class="feedbackbtn hide" data-toggle="modal" data-target="#myModal">Feedback</a>
+
+<div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title">Feedback Form <a style="float:right;color:#fff;cursor: pointer;" data-dismiss="modal"><i class="fa fa-close"></i></a></h4>
+
+                            </div>
+                            <div class="modal-body">
+                            	<form action="https://www.panditjioncall.com/contact" method="post"  enctype="multipart/form-data" name="AvyuFeedbackForm" onsubmit="return CheckValidationAvyuFeedback()">
+							
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                       <label>Enter Full Name *<i id="nameerror" class="alertmsg" ></i></label>
+                          <input type="text" name="fullname">
+                 
+                </div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <label>Enter Email *<i id="nameerror2" class="alertmsg" ></i></label>
+                         <input type="text" name='email' id="email">
+                  
+                </div>
+				
+				<div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                  <label>Phone Number *<i id="nameerror3" class="alertmsg" ></i></label>
+<input type="text" name="phone_number" onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57" >
+                 
+                </div>
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <label>Are You Human?</label><br>
+                      Captcha 1 +
+                      <input type='hidden' value="1" name='num1'>
+                     
+9=*<br> 
+ <input type='hidden' value="9" name='num2'>
+<input id="captcha"  type="text" name="captcha" maxlength="2" placeholder="Enter captcha Value" /> <br>
+                    <div class="hs_kd_six_sec_input_wrapper">
+                         <label>Message *<i id="nameerror4" class="alertmsg" ></i></label>
+                                          <textarea name='message'></textarea>
+                    </div>
+                </div>
+				<div ><div class="col-lg-3">
+                         &nbsp;&nbsp;<input class="btn btn-lg btn-block btn-primary" name="submit" type="submit"  value="Submit">
+                     </div>
+                    </div>
+					
+					
+					<br>
+					
+					</form>
+                            </div>
+                            <div class="modal-footer">
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+	<div class="hs_top_header_main_Wrapper">
+        <div class="container">
+		
+	
+            <div class="hs_header_logo_left hidden-xs" style="margin-top:-20px">
+                <div class="hs_logo_wrapper">
+                    <a href="../index.html"><img src="../upload/home/21-09-19-064903logo.png" class="img-responsive" alt="Pandit Ji OnCall" title="Pandit Ji On Call"/></a>
+                </div>
+            </div>
+            <div class="hs_header_logo_right">
+                <div class="hs_top_user_profile" >
+                   <div class="quote-middle">
+				   				    <a style="margin-left:12px" href="../login.html" class="theme-btn btn-style-order-nav" ><i class="fa fa-sign-in" aria-hidden="true"></i>
+Login</a>  <a href="../register.html" class="theme-btn btn-style-order-nav"  ><i class="fa fa-user-plus" aria-hidden="true"></i>
+Register</a>
+				   								</div>
+                </div>
+                     <div class="hs_header_logo_right" >
+                <div class="hs_top_user_profile" data-toggle="modal" >
+                  
+                </div>
+
+                <div class="hs_header_add_wrapper as1 "> &nbsp;
+                  <!--  <a href="https://wa.me/919001720433?text=Om%20Shree%20Ganeshya%20Namah">
+                    <div class="hs_header_add_icon" >
+                        <i class="fa fa-whatsapp" style="font-size:37px"></i>
+                    </div>
+                    <div class="hs_header_add_icon_cont">
+                        <h5>Customer Care</h5>
+                        <p></p>
+                        
+                    </div></a>-->
+                </div>
+				 <div class="hs_header_add_wrapper as2 ">&nbsp;
+				    <!-- <a href="tel:+911416691111">
+                    <div class="hs_header_add_icon hide" >
+                     <img src="https://www.panditjioncall.com/assests/24x71.png" style="width:98%;margin-top: -9px;" alt='pandit ji oncall'>
+                    </div>
+                    <div class="hs_header_add_icon_cont hide">
+                        <h5>Consult Pandit Ji</h5>
+                        <p style="font-weight: bold;">+91-141-669-1111</p>
+                       
+                    </div> </a>-->
+                </div>
+               
+            </div>
+        </div>
+    </div>
+    <!-- hs top header End -->
+    <!-- hs Navigation Start -->
+    <div class="hs_navigation_header_wrapper">
+	
+		 <script src="../assests/js/bootnavbar.js" ></script>
+    <script>
+        $(function () {
+            $('#main_navbar').bootnavbar();
+        })
+    </script> 
+     
+ 
+        <div class="container">
+            <div class="row">	
+			
+                <div class="col-lg-11 col-md-11 col-sm-11 col-xs-12">
+				
+				   <header class="mobail_menu visible-xs">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6">
+                                    <div class="hs_logo">
+                                        <a href="../index.html"><img src="../assests/assets/images/content/mobile_logo.png" alt="Logo" title="Logo" style="width:150%"></a>
+                                    </div>
+									
+									
+                                </div>
+                            
+                            </div>
+							
+                        </div>
+                        <!-- .cd-dropdown-wrapper -->
+						
+                    </header>
+					<button  style="   
+    font-size: 24px;
+    background-color: #fff;
+    border: 0px;
+	padding-top:3px;
+    padding: 7px;
+    margin-left: 85%;
+    margin-top: -50px;" class="navbar-toggler visible-xs-block" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="
+    border: 1px solid #ff6347;
+    padding: 0px 2px 4px 2px;">|||</span>
+        </button>
+              <nav class="hs_main_menu " id="main_navbar">
+				 <div class="collapse navbar-collapse" id="navbarSupportedContent" style="width:110%; ">	
+			<ul class="navbar-nav mr-auto">
+			<li><a  href="../index.html"><i class="fa fa-home"></i> Home</a></li>
+
+				<li class="drop-down"><a href="javaScript:Void(0)"> Consult With Pandit Ji</a>
+				<!--Drop Down-->
+				<ul class="drop-down-ul animated fadeIn">
+				<li ><a class="menu-button" href="../astrologerlist.html">Our Pandit Ji</a></li>
+				<li > <a href="../package.html">Package</a></li>
+				
+				</ul>
+			
+			</li>
+			<li class="drop-down"><a href="#"> HoroScope</a>
+				<!--Drop Down-->
+				<ul class="drop-down-ul animated fadeIn">
+		
+			             <li><a href="../horoscopes/Aries.html">Aries</a></li>
+									             <li><a href="../horoscopes/Taurus.html">Taurus</a></li>
+									             <li><a href="../horoscopes/Gemini.html">Gemini</a></li>
+									             <li><a href="../horoscopes/Cancer.html">Cancer</a></li>
+									             <li><a href="../horoscopes/Leo.html">Leo</a></li>
+									             <li><a href="../horoscopes/Virgo.html">Virgo</a></li>
+									             <li><a href="../horoscopes/Libra.html">Libra</a></li>
+									             <li><a href="../horoscopes/Scorpio.html">Scorpio</a></li>
+									             <li><a href="../horoscopes/Sagittairus.html">Sagittairus</a></li>
+									             <li><a href="../horoscopes/Capricorn.html">Capricorn</a></li>
+									             <li><a href="../horoscopes/Aquarius.html">Aquarius</a></li>
+									             <li><a href="../horoscopes/Pisces.html">Pisces</a></li>
+													
+				</ul>
+			
+			</li>
+			
+				<li class="drop-down"><a href="#"> Services</a>
+				<!--Drop Down-->
+				<ul class="drop-down-ul animated fadeIn">
+				<li class="flyout-right"><a href="javascript:void(0)">Free Services</a><!--Flyout Right-->
+					<ul class="animated fadeIn">
+					
+										
+					
+				 <li><a href="horoscope-matching.html">Horoscope Matching</a></li>
+     					
+					
+				 <li><a href="free-birth-kundali.html">Free Birth kundali</a></li>
+     					
+					
+				 <li><a href="gemstone-recommendation.html">Gemstone Recommendation</a></li>
+     					
+					
+				 <li><a href="free-prayer-request.html">Free Prayer Request</a></li>
+     					</ul>
+				</li>
+				
+                <li class="flyout-right"><a href="javascript:void(0)">Paid Services</a><!--Flyout Right-->
+					<ul class="animated fadeIn">
+								 <li>  <a href="romantic-compatibility-report.html">Romantic Compatibility Report</a></li>
+								 			 <li>  <a href="business-report.html">Business Report</a></li>
+								 			 <li>  <a href="career-report.html">Career Report</a></li>
+								 			 <li>  <a href="health-report.html">Health Report</a></li>
+								 					</ul>
+				</li>
+					</ul>
+			
+			</li>
+			<li class="drop-down"><a href="#"> Gemstone</a>
+				<!--Drop Down-->
+				<ul class="drop-down-ul animated fadeIn">
+		
+			             <li><a href="../productdetails/blue-sapphire.html">Blue Sapphire</a></li>
+									             <li><a href="../productdetails/cats-eye.html">Cats Eye</a></li>
+									             <li><a href="../productdetails/emerald.html">Emerald</a></li>
+									             <li><a href="../productdetails/hessonite.html">Hessonite</a></li>
+									             <li><a href="../productdetails/opal.html">Opal</a></li>
+									             <li><a href="../productdetails/pearl.html">Pearl</a></li>
+									             <li><a href="../productdetails/red-coral.html">Red Coral</a></li>
+									             <li><a href="../productdetails/ruby.html">Ruby</a></li>
+									             <li><a href="../productdetails/white-sapphire.html">White Sapphire</a></li>
+									             <li><a href="../productdetails/yellow-sapphire.html">Yellow Sapphire</a></li>
+													
+				</ul>
+			
+			</li>
+			
+			<li class="drop-down"><a href="#"> Rudraksha</a>
+				<!--Drop Down-->
+				<ul class="drop-down-ul animated fadeIn">
+		
+			             <li><a href="../productdetails/1-mukhi-rudraksh.html">1-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/2-mukhi-rudraksha.html">2 Mukhi Rudraksha</a></li>
+									             <li><a href="../productdetails/3-mukhi-rudraksh.html">3-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/4-mukhi-rudraksh.html">4-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/5-mukhi-rudraksh.html">5-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/6-mukhi-rudraksh.html">6-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/7-mukhi-rudraksh.html">7-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/8-mukhi-rudraksh.html">8-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/9-mukhi-rudraksh.html">9-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/10-mukhi-rudraksh.html">10-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/-11-mukhi-rudraksh.html"> 11-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/12-mukhi-rudraksh.html">12-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/13-mukhi-rudraksh.html">13-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/14-mukhi-rudraksh.html">14-Mukhi-Rudraksh</a></li>
+									             <li><a href="../productdetails/-gauri-shankar-rudraksh.html"> Gauri Shankar Rudraksh</a></li>
+													
+				</ul>
+			
+			</li>
+			
+			<li class="drop-down"><a href="#"> Pooja</a>
+				<!--Drop Down-->
+				<ul class="drop-down-ul animated fadeIn">
+		
+			             <li class="flyout-right"><a href="javascript:void(0)">Online Pooja for Love Marriage</a>
+		<ul class="animated fadeIn">
+		                		
+					
+						<li><a href="../productdetails/online-kamdev-rati-pooja.html">Online KamDev Rati Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/gauri-shankar-pooja.html">Gauri Shankar Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/shiv-parvathi-pooja.html">Shiv Parvathi Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/shukra-venus-pooja.html">Shukra Venus Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/arisht-gun-dosh-nivaran-pooja.html">Arisht Gun Dosh Nivaran Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/mangal-dosh-nivaran-pooja.html">Mangal Dosh Nivaran Pooja</a></li>
+						
+						
+					</ul>
+				
+			 
+			 </li>
+									             <li class="flyout-right"><a href="javascript:void(0)">Online pooja for Successful Career</a>
+		<ul class="animated fadeIn">
+		                		
+					
+						<li><a href="../productdetails/lakshmi-narayan-pooja.html">Lakshmi Narayan Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/nandi-pooja.html">Nandi Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/lakshmi-kuber-homam.html">Lakshmi Kuber Homam</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/lord-ganesha-pooja.html">Lord Ganesha Pooja</a></li>
+						
+						
+					</ul>
+				
+			 
+			 </li>
+									             <li class="flyout-right"><a href="javascript:void(0)">Online Planet(Grah) Pooja</a>
+		<ul class="animated fadeIn">
+		                		
+					
+						<li><a href="../productdetails/budha-mercury-pooja.html">Budha Mercury Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/chandra-moon-puja.html">Chandra Moon Puja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/guru-jupiter-pooja.html">Guru Jupiter Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/ketu-dragons-tail-puja.html">Ketu Dragons Tail Puja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/mangal-mars-pooja.html">Mangal Mars Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/navagraha-pooja.html">Navagraha Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/rahu-dragons-head-pooja.html">Rahu Dragons Head Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/shani-saturn-pooja.html">Shani Saturn Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/shukra-venus-pooja.html">Shukra Venus Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/surya-sun-pooja.html">Surya Sun Pooja</a></li>
+						
+						
+					</ul>
+				
+			 
+			 </li>
+									             <li class="flyout-right"><a href="javascript:void(0)">Online Pooja for good health</a>
+		<ul class="animated fadeIn">
+		                		
+					
+						<li><a href="../productdetails/mahamritunjaey-pooja.html">MahaMritunjaey Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/ayusha-pooja.html">Ayusha Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/hanuman-pooja.html">Hanuman Pooja</a></li>
+						
+						
+					</ul>
+				
+			 
+			 </li>
+									             <li class="flyout-right"><a href="javascript:void(0)">Online Special Pooja</a>
+		<ul class="animated fadeIn">
+		                		
+					
+						<li><a href="../productdetails/special-pooja-package.html">Special Pooja Package</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/rudra-abhishek-pooja.html">Rudra Abhishek Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/birthday-pooja.html">Birthday Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/kal-sarpa-dosh-nivaran-pooja.html">Kal Sarpa Dosh Nivaran Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/mangal-dosh-nivaran-pooja.html">Mangal Dosh Nivaran Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/nazar-dosh-nivaran-pooja.html">Nazar Dosh Nivaran Pooja</a></li>
+						
+						
+		
+					
+						<li><a href="../productdetails/mangal-pooja.html">Mangal Pooja</a></li>
+						
+						
+					</ul>
+				
+			 
+			 </li>
+													
+				</ul>
+			
+			</li>
+			
+			<li class="drop-down"><a href="#"> Yantra </a>
+					<ul class="drop-down-ul animated fadeIn">
+		
+			             <li><a href="../productdetails/raksha-kavach-maha-yantram-.html">Raksha Kavach Maha Yantram </a></li>
+									             <li><a href="../productdetails/shri-gyanvriddhi-vidya-prapti-maha-yantram.html">Shri GyanVriddhi Vidya Prapti Maha Yantram</a></li>
+									             <li><a href="../productdetails/shree-yantra.html">Shree Yantra</a></li>
+									             <li><a href="../productdetails/navgraha-yantra.html">Navgraha Yantra</a></li>
+									             <li><a href="../productdetails/sarva-siddhi-maha-yantra.html">Sarva Siddhi Maha Yantra</a></li>
+									             <li><a href="../productdetails/kuber-lakshmi-samruddhi-maha-yantram.html">Kuber Lakshmi Samruddhi Maha Yantram</a></li>
+									             <li><a href="../productdetails/shree-vastu-maha-yantram.html">Shree Vastu Maha Yantram</a></li>
+									             <li><a href="../productdetails/shree-vashikaran-maha-yantram.html">Shree Vashikaran Maha Yantram</a></li>
+									             <li><a href="../productdetails/shree-sarva-rog-nivaran-maha-yantram.html">Shree Sarva Rog Nivaran Maha Yantram</a></li>
+									             <li><a href="../productdetails/shree-sarva-karya-siddhi-maha-yantram.html">Shree Sarva Karya Siddhi Maha Yantram</a></li>
+													
+				</ul>
+				
+			 
+			 </li>
+								<li><a href="../about-us.html"> About Us</a>
+				<!--Drop Down-->
+			<!--	<ul class="drop-down-ul animated fadeIn">
+		
+		         <li>  <a class="menu-button" href="https://www.panditjioncall.com/about_us">About Us</a></li>
+                 <li>  <a class="menu-button" href="https://www.panditjioncall.com/who_we_are">Who We Are</a></li>
+				
+				</ul>-->
+			
+			</li>
+			
+			<li><a class="menu-button" href="../contact.html">Contact Us </a></li>
+				
+				<li><a class="menu-button" href="https://panditjioncall.com/blog/">Blog </a></li>
+				</ul>
+
+		
+		</div>
+                       
+                    </nav>
+                 
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1 col-xs-12 hidden-xs">
+                    <div class="hs_navi_searchbar_wrapper">
+                  	  
+                    </div>
+                    <div class="hs_navi_cart_wrapper">
+                        <div class="dropdown-wrapper menu-button">
+                            <a class="menu-button" href="../cart"><i class="flaticon-shop"></i><span>0</span></a>
+                     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>     <!-- hs Navigation End -->
+    <!-- hs Slider Start -->
+    <div class="hs_indx_title_main_wrapper">
+        <div class="hs_title_img_overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 full_width">
+                    <div class="hs_indx_title_left_wrapper">
+					
+                        <h2>Gemstone Recommendation</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 full_width">
+                    <div class="hs_indx_title_right_wrapper">
+                        <ul>
+                            <li><a href="../index.html">Home</a> &nbsp;&nbsp;&nbsp;> </li>
+                            <li>Gemstone Recommendation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hs About Title End -->
+	
+	 <div class="hs_about_progress_main_wrapper manpading"  >
+        <div class="container">
+            <div class="row">
+              
+			  							
+							<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                              <div class="hs_kd_first_sec_wrapper">
+                                    <h2 style="color: #ff6347">POWERFUL GEMSTONE RECOMMENDATION</h2>
+                                    <h4><span>&nbsp;</span></h4>
+                                   </div>
+                                <div class="hs_kd_second_list_sec_wrapper">
+                                    <ul>  <li><i class="fa fa-chevron-right"></i>&nbsp;&nbsp; What Gemstone should I wear?</li>
+                                        <li><i class="fa fa-chevron-right"></i> &nbsp;&nbsp; Will I get the correct gemstone recommendation information from here?</li>
+                                         <li><i class="fa fa-chevron-right"></i>&nbsp;&nbsp; What Gem should I wear for resolving my marriage problem?</li>
+                                         <li><i class="fa fa-chevron-right"></i>&nbsp;&nbsp;  What can I do for betterment of my career? </li>
+										 <li><i class="fa fa-chevron-right"></i>&nbsp;&nbsp; Which stone should I consider wearing for my Wealth Problems? </li>
+						
+									
+             
+                                    </ul>                                </div>
+								
+								   </div>
+							
+							<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+                                <div class="hs_kd_second_img_sec_wrapper" style="padding: 5px;
+    background: #ff6347;">
+                                    <img src="../upload/services/16-10-19-054417gems.jpg" class="img-responsive" alt="Horoscope Matching">
+                                </div>
+                            </div>
+														 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+							   <div class="hs_cry_first_sec_wrapper">
+                                    <h2 Style= "font-weight: 700">  Your Questions Will Be Answered By Pandit Ji In This Free Report:</h2>
+								 
+						  <p>Gemstones should always be worn according to auspicious grah (Planet) as per your kundali (birth- chart).</p>
+
+<p>In this service we will suggest you which gemstones are suitable, fruitful &amp; Lucky for you and will recommend which one is most required to wear according to your horoscope and also suggest which are harmful for you, so in this service you can ask only about gem stones for you according to your Horoscope, which should wear and which should not wear.</p>
+                            </div>
+                             
+                            </div>
+													
+						            
+						
+			
+			
+						<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+							  <div class="hs_num_second_sec_wrapper">
+                                    <h2>Enter Your Birth Details:</h2>
+                                    <h4><span>&nbsp;</span></h4>
+                                </div>
+							 <form action="https://www.panditjioncall.com/gemstone_recommendation" method="post"  enctype="multipart/form-data" name="AvyuForm" onsubmit="return CheckValidationAvyu()">
+							
+                                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Enter Full Name *<i id="nameerror" class="alertmsg" ></i></label>
+                                            <input type="text" name="fullname">
+                                        </div>
+                                    </div>
+									<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Enter Email *<i id="nameerror2" class="alertmsg" ></i></label>
+                                            <input type="text" name="email">
+                                        </div>
+                                    </div>
+									<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Phone Number *<i id="nameerror3" class="alertmsg" ></i></label>
+                                            <input type="text" name="phone_number" onkeypress="return event.charCode >= 48 &amp;&amp; event.charCode <= 57">
+                                        </div>
+                                    </div>
+								
+                                          
+                                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Gender *<i id="nameerror4" class="alertmsg" ></i></label>
+                                           <select class="hs_num_select_wrapper" name="gender">
+											  <option> Select Gender</option>
+											  <option value="Male">Male</option>
+											  <option value="Female"> Female</option>
+											  
+											  
+											  
+											  </select>
+                                        </div>
+                                    </div>
+                                 
+									 <div class="col-lg-6 col-md-6 col-sm-4 col-xs-6">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Enter Purpose *<i id="nameerror5" class="alertmsg" ></i></label>
+                                            <input type="text" name="purpose">
+                                        </div>
+                                    </div>
+									 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Body Weight(in kgs) *<i id="nameerror6" class="alertmsg" ></i></label>
+                                            <input type="text" name="weight">
+                                        </div>
+                                    </div> <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Place of Birth *<i id="nameerror7" class="alertmsg" ></i></label>
+                                            <input type="text" name="birthplace" onkeypress="return /[a-z]/i.test(event.key)">
+                                        </div>
+                                    </div>
+									
+									
+									 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Enter County *<i id="nameerror8" class="alertmsg" ></i></span></label>
+                                        
+											
+											<select name="country"  class="formlogin">
+											   <option value="">Select Country</option>
+																								<option value="India">India</option>
+                                               
+                                                
+																								<option value="USA">USA</option>
+                                               
+                                                
+																								<option value="Australia">Australia</option>
+                                               
+                                                
+																								<option value="UK">UK</option>
+                                               
+                                                
+																								<option value="UAE">UAE</option>
+                                               
+                                                
+																								<option value="Canada">Canada</option>
+                                               
+                                                
+																								<option value="Qatar">Qatar</option>
+                                               
+                                                
+																								<option value="Antarctica">Antarctica</option>
+                                               
+                                                
+																								<option value="Antigua">Antigua</option>
+                                               
+                                                
+																								<option value="Argentina">Argentina</option>
+                                               
+                                                
+																								<option value="Armenia">Armenia</option>
+                                               
+                                                
+																								<option value="Aruba">Aruba</option>
+                                               
+                                                
+																								<option value="Ascension">Ascension</option>
+                                               
+                                                
+																								<option value="Algeria">Algeria</option>
+                                               
+                                                
+																								<option value="Australian External Territories">Australian External Territories</option>
+                                               
+                                                
+																								<option value="Austria">Austria</option>
+                                               
+                                                
+																								<option value="Azerbaijan">Azerbaijan</option>
+                                               
+                                                
+																								<option value="Bahamas">Bahamas</option>
+                                               
+                                                
+																								<option value="Bahrain">Bahrain</option>
+                                               
+                                                
+																								<option value="Bangladesh">Bangladesh</option>
+                                               
+                                                
+																								<option value="Barbados">Barbados</option>
+                                               
+                                                
+																								<option value="Barbuda">Barbuda</option>
+                                               
+                                                
+																								<option value="Belarus">Belarus</option>
+                                               
+                                                
+																								<option value="Belgium">Belgium</option>
+                                               
+                                                
+																								<option value="Belize">Belize</option>
+                                               
+                                                
+																								<option value="Benin">Benin</option>
+                                               
+                                                
+																								<option value="Bermuda">Bermuda</option>
+                                               
+                                                
+																								<option value="Bhutan">Bhutan</option>
+                                               
+                                                
+																								<option value="Bolivia">Bolivia</option>
+                                               
+                                                
+																								<option value="Bosnia & Herzegovina">Bosnia & Herzegovina</option>
+                                               
+                                                
+																								<option value="Botswana">Botswana</option>
+                                               
+                                                
+																								<option value="Brazil">Brazil</option>
+                                               
+                                                
+																								<option value="British Virgin Islands">British Virgin Islands</option>
+                                               
+                                                
+																								<option value="Brunei Darussalam">Brunei Darussalam</option>
+                                               
+                                                
+																								<option value="Bulgaria">Bulgaria</option>
+                                               
+                                                
+																								<option value="Burkina Faso">Burkina Faso</option>
+                                               
+                                                
+																								<option value="Burundi">Burundi</option>
+                                               
+                                                
+																								<option value="Cambodia">Cambodia</option>
+                                               
+                                                
+																								<option value="Cameroon">Cameroon</option>
+                                               
+                                                
+																								<option value="Angola">Angola</option>
+                                               
+                                                
+																								<option value="Cape Verde Islands">Cape Verde Islands</option>
+                                               
+                                                
+																								<option value="Cayman Islands">Cayman Islands</option>
+                                               
+                                                
+																								<option value="Central African Republic">Central African Republic</option>
+                                               
+                                                
+																								<option value="Chad">Chad</option>
+                                               
+                                                
+																								<option value="Chatham Island (New Zealand)">Chatham Island (New Zealand)</option>
+                                               
+                                                
+																								<option value="Chile">Chile</option>
+                                               
+                                                
+																								<option value="China (PRC)">China (PRC)</option>
+                                               
+                                                
+																								<option value="CocosKeeling Islands">CocosKeeling Islands</option>
+                                               
+                                                
+																								<option value="Colombia">Colombia</option>
+                                               
+                                                
+																								<option value="Comoros">Comoros</option>
+                                               
+                                                
+																								<option value="Congo">Congo</option>
+                                               
+                                                
+																								<option value="Cook Islands">Cook Islands</option>
+                                               
+                                                
+																								<option value="Costa Rica">Costa Rica</option>
+                                               
+                                                
+																								<option value="Croatia">Croatia</option>
+                                               
+                                                
+																								<option value="Cuba">Cuba</option>
+                                               
+                                                
+																								<option value="Cuba (Guantanamo Bay)">Cuba (Guantanamo Bay)</option>
+                                               
+                                                
+																								<option value="Cyprus">Cyprus</option>
+                                               
+                                                
+																								<option value="Czech Republic">Czech Republic</option>
+                                               
+                                                
+																								<option value="Denmark">Denmark</option>
+                                               
+                                                
+																								<option value="Diego Garcia">Diego Garcia</option>
+                                               
+                                                
+																								<option value="Djibouti">Djibouti</option>
+                                               
+                                                
+																								<option value="Dominica">Dominica</option>
+                                               
+                                                
+																								<option value="East Timor">East Timor</option>
+                                               
+                                                
+																								<option value="Easter Island">Easter Island</option>
+                                               
+                                                
+																								<option value="Ecuador">Ecuador</option>
+                                               
+                                                
+																								<option value="Egypt">Egypt</option>
+                                               
+                                                
+																								<option value="El Salvador">El Salvador</option>
+                                               
+                                                
+																								<option value="Equatorial Guinea">Equatorial Guinea</option>
+                                               
+                                                
+																								<option value="Eritrea">Eritrea</option>
+                                               
+                                                
+																								<option value="Estonia">Estonia</option>
+                                               
+                                                
+																								<option value="Ethiopia">Ethiopia</option>
+                                               
+                                                
+																								<option value="Faroe Islands">Faroe Islands</option>
+                                               
+                                                
+																								<option value="Fiji Islands">Fiji Islands</option>
+                                               
+                                                
+																								<option value="Finland">Finland</option>
+                                               
+                                                
+																								<option value="France">France</option>
+                                               
+                                                
+																								<option value="French Antilles">French Antilles</option>
+                                               
+                                                
+																								<option value="French Guiana">French Guiana</option>
+                                               
+                                                
+																								<option value="French Polynesia">French Polynesia</option>
+                                               
+                                                
+																								<option value="Gabonese Republic">Gabonese Republic</option>
+                                               
+                                                
+																								<option value="Gambia">Gambia</option>
+                                               
+                                                
+																								<option value="Georgia">Georgia</option>
+                                               
+                                                
+																								<option value="Germany">Germany</option>
+                                               
+                                                
+																								<option value="Ghana">Ghana</option>
+                                               
+                                                
+																								<option value="Gibraltar">Gibraltar</option>
+                                               
+                                                
+																								<option value="Greece">Greece</option>
+                                               
+                                                
+																								<option value="Greenland">Greenland</option>
+                                               
+                                                
+																								<option value="Grenada">Grenada</option>
+                                               
+                                                
+																								<option value="Guadeloupe">Guadeloupe</option>
+                                               
+                                                
+																								<option value="Guam">Guam</option>
+                                               
+                                                
+																								<option value="Guantanamo Bay">Guantanamo Bay</option>
+                                               
+                                                
+																								<option value="Guatemala">Guatemala</option>
+                                               
+                                                
+																								<option value="GuineaBissau">GuineaBissau</option>
+                                               
+                                                
+																								<option value="Guinea">Guinea</option>
+                                               
+                                                
+																								<option value="Guyana">Guyana</option>
+                                               
+                                                
+																								<option value="Haiti">Haiti</option>
+                                               
+                                                
+																								<option value="Honduras">Honduras</option>
+                                               
+                                                
+																								<option value="Hong Kong">Hong Kong</option>
+                                               
+                                                
+																								<option value="Hungary">Hungary</option>
+                                               
+                                                
+																								<option value="Iceland">Iceland</option>
+                                               
+                                                
+																								<option value="Afghanistan">Afghanistan</option>
+                                               
+                                                
+																								<option value="Indonesia">Indonesia</option>
+                                               
+                                                
+																								<option value="Inmarsat (Atlantic Ocean  West)">Inmarsat (Atlantic Ocean  West)</option>
+                                               
+                                                
+																								<option value="Inmarsat (Indian Ocean)">Inmarsat (Indian Ocean)</option>
+                                               
+                                                
+																								<option value="Inmarsat (Pacific Ocean)">Inmarsat (Pacific Ocean)</option>
+                                               
+                                                
+																								<option value="Iran">Iran</option>
+                                               
+                                                
+																								<option value="Iraq">Iraq</option>
+                                               
+                                                
+																								<option value="Ireland">Ireland</option>
+                                               
+                                                
+																								<option value="Israel">Israel</option>
+                                               
+                                                
+																								<option value="Italy">Italy</option>
+                                               
+                                                
+																								<option value="Jamaica">Jamaica</option>
+                                               
+                                                
+																								<option value="Japan">Japan</option>
+                                               
+                                                
+																								<option value="Jordan">Jordan</option>
+                                               
+                                                
+																								<option value="Kazakhstan">Kazakhstan</option>
+                                               
+                                                
+																								<option value="Kenya">Kenya</option>
+                                               
+                                                
+																								<option value="Kiribati">Kiribati</option>
+                                               
+                                                
+																								<option value="Korea (North)">Korea (North)</option>
+                                               
+                                                
+																								<option value="Korea (South)">Korea (South)</option>
+                                               
+                                                
+																								<option value="Kuwait">Kuwait</option>
+                                               
+                                                
+																								<option value="Kyrgyz Republic">Kyrgyz Republic</option>
+                                               
+                                                
+																								<option value="Laos">Laos</option>
+                                               
+                                                
+																								<option value="Latvia">Latvia</option>
+                                               
+                                                
+																								<option value="Lebanon">Lebanon</option>
+                                               
+                                                
+																								<option value="Lesotho">Lesotho</option>
+                                               
+                                                
+																								<option value="Liberia">Liberia</option>
+                                               
+                                                
+																								<option value="Libya">Libya</option>
+                                               
+                                                
+																								<option value="Liechtenstein">Liechtenstein</option>
+                                               
+                                                
+																								<option value="Lithuania">Lithuania</option>
+                                               
+                                                
+																								<option value="Luxembourg">Luxembourg</option>
+                                               
+                                                
+																								<option value="Macao">Macao</option>
+                                               
+                                                
+																								<option value="Madagascar">Madagascar</option>
+                                               
+                                                
+																								<option value="Malawi">Malawi</option>
+                                               
+                                                
+																								<option value="Malaysia">Malaysia</option>
+                                               
+                                                
+																								<option value="Maldives">Maldives</option>
+                                               
+                                                
+																								<option value="Mali Republic">Mali Republic</option>
+                                               
+                                                
+																								<option value="Malta">Malta</option>
+                                               
+                                                
+																								<option value="Marshall Islands">Marshall Islands</option>
+                                               
+                                                
+																								<option value="Martinique">Martinique</option>
+                                               
+                                                
+																								<option value="Mauritania">Mauritania</option>
+                                               
+                                                
+																								<option value="Mauritius">Mauritius</option>
+                                               
+                                                
+																								<option value="Mayotte Island">Mayotte Island</option>
+                                               
+                                                
+																								<option value="Mexico">Mexico</option>
+                                               
+                                                
+																								<option value="Midway Island">Midway Island</option>
+                                               
+                                                
+																								<option value="Moldova">Moldova</option>
+                                               
+                                                
+																								<option value="Monaco">Monaco</option>
+                                               
+                                                
+																								<option value="Mongolia">Mongolia</option>
+                                               
+                                                
+																								<option value="Montenegro">Montenegro</option>
+                                               
+                                                
+																								<option value="Montserrat">Montserrat</option>
+                                               
+                                                
+																								<option value="Morocco">Morocco</option>
+                                               
+                                                
+																								<option value="Mozambique">Mozambique</option>
+                                               
+                                                
+																								<option value="Myanmar">Myanmar</option>
+                                               
+                                                
+																								<option value="Namibia">Namibia</option>
+                                               
+                                                
+																								<option value="Nauru">Nauru</option>
+                                               
+                                                
+																								<option value="Nepal">Nepal</option>
+                                               
+                                                
+																								<option value="Netherlands">Netherlands</option>
+                                               
+                                                
+																								<option value="Netherlands Antilles">Netherlands Antilles</option>
+                                               
+                                                
+																								<option value="Nevis">Nevis</option>
+                                               
+                                                
+																								<option value="New Caledonia">New Caledonia</option>
+                                               
+                                                
+																								<option value="New Zealand">New Zealand</option>
+                                               
+                                                
+																								<option value="Nicaragua">Nicaragua</option>
+                                               
+                                                
+																								<option value="Niger">Niger</option>
+                                               
+                                                
+																								<option value="Nigeria">Nigeria</option>
+                                               
+                                                
+																								<option value="Niue">Niue</option>
+                                               
+                                                
+																								<option value="Norfolk Island">Norfolk Island</option>
+                                               
+                                                
+																								<option value="Northern Marianas Islands?">Northern Marianas Islands?</option>
+                                               
+                                                
+																								<option value="(Saipan, Rota, & Tinian)">(Saipan, Rota, & Tinian)</option>
+                                               
+                                                
+																								<option value="Norway">Norway</option>
+                                               
+                                                
+																								<option value="Oman">Oman</option>
+                                               
+                                                
+																								<option value="Pakistan">Pakistan</option>
+                                               
+                                                
+																								<option value="Palau">Palau</option>
+                                               
+                                                
+																								<option value="Palestinian Settlements">Palestinian Settlements</option>
+                                               
+                                                
+																								<option value="Panama">Panama</option>
+                                               
+                                                
+																								<option value="Papua New Guinea">Papua New Guinea</option>
+                                               
+                                                
+																								<option value="Paraguay">Paraguay</option>
+                                               
+                                                
+																								<option value="Peru">Peru</option>
+                                               
+                                                
+																								<option value="Philippines">Philippines</option>
+                                               
+                                                
+																								<option value="Poland">Poland</option>
+                                               
+                                                
+																								<option value="Portugal">Portugal</option>
+                                               
+                                                
+																								<option value="Anguilla">Anguilla</option>
+                                               
+                                                
+																								<option value="Romania">Romania</option>
+                                               
+                                                
+																								<option value="Russia">Russia</option>
+                                               
+                                                
+																								<option value="Rwandese Republic">Rwandese Republic</option>
+                                               
+                                                
+																								<option value="St. Helena">St. Helena</option>
+                                               
+                                                
+																								<option value="Samoa">Samoa</option>
+                                               
+                                                
+																								<option value="San Marino">San Marino</option>
+                                               
+                                                
+																								<option value="Saudi Arabia">Saudi Arabia</option>
+                                               
+                                                
+																								<option value="Senegal">Senegal</option>
+                                               
+                                                
+																								<option value="Serbia">Serbia</option>
+                                               
+                                                
+																								<option value="Seychelles Republic">Seychelles Republic</option>
+                                               
+                                                
+																								<option value="Sierra Leone">Sierra Leone</option>
+                                               
+                                                
+																								<option value="Singapore">Singapore</option>
+                                               
+                                                
+																								<option value="Slovak Republic">Slovak Republic</option>
+                                               
+                                                
+																								<option value="Slovenia">Slovenia</option>
+                                               
+                                                
+																								<option value="Solomon Islands">Solomon Islands</option>
+                                               
+                                                
+																								<option value="Somali Democratic Republic">Somali Democratic Republic</option>
+                                               
+                                                
+																								<option value="South Africa">South Africa</option>
+                                               
+                                                
+																								<option value="Spain">Spain</option>
+                                               
+                                                
+																								<option value="Sri Lanka">Sri Lanka</option>
+                                               
+                                                
+																								<option value="Sudan">Sudan</option>
+                                               
+                                                
+																								<option value="Suriname">Suriname</option>
+                                               
+                                                
+																								<option value="Swaziland">Swaziland</option>
+                                               
+                                                
+																								<option value="Sweden">Sweden</option>
+                                               
+                                                
+																								<option value="Switzerland">Switzerland</option>
+                                               
+                                                
+																								<option value="Syria">Syria</option>
+                                               
+                                                
+																								<option value="Taiwan">Taiwan</option>
+                                               
+                                                
+																								<option value="Tajikistan">Tajikistan</option>
+                                               
+                                                
+																								<option value="Tanzania">Tanzania</option>
+                                               
+                                                
+																								<option value="Thailand">Thailand</option>
+                                               
+                                                
+																								<option value="Thuraya (Mobile Satellite service)">Thuraya (Mobile Satellite service)</option>
+                                               
+                                                
+																								<option value="Timor Leste">Timor Leste</option>
+                                               
+                                                
+																								<option value="Togolese Republic">Togolese Republic</option>
+                                               
+                                                
+																								<option value="Tokelau">Tokelau</option>
+                                               
+                                                
+																								<option value="Tonga Islands">Tonga Islands</option>
+                                               
+                                                
+																								<option value="Trinidad & Tobago">Trinidad & Tobago</option>
+                                               
+                                                
+																								<option value="Tunisia">Tunisia</option>
+                                               
+                                                
+																								<option value="Turkey">Turkey</option>
+                                               
+                                                
+																								<option value="Turkmenistan">Turkmenistan</option>
+                                               
+                                                
+																								<option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+                                               
+                                                
+																								<option value="Tuvalu">Tuvalu</option>
+                                               
+                                                
+																								<option value="Uganda">Uganda</option>
+                                               
+                                                
+																								<option value="Ukraine">Ukraine</option>
+                                               
+                                                
+																								<option value="United Arab Emirates">United Arab Emirates</option>
+                                               
+                                                
+																								<option value="United Kingdom">United Kingdom</option>
+                                               
+                                                
+																								<option value="United States of America">United States of America</option>
+                                               
+                                                
+																								<option value="US Virgin Islands">US Virgin Islands</option>
+                                               
+                                                
+																								<option value="Uruguay">Uruguay</option>
+                                               
+                                                
+																								<option value="Uzbekistan">Uzbekistan</option>
+                                               
+                                                
+																								<option value="Vanuatu">Vanuatu</option>
+                                               
+                                                
+																								<option value="Venezuela">Venezuela</option>
+                                               
+                                                
+																								<option value="Vietnam">Vietnam</option>
+                                               
+                                                
+																								<option value="Wake Island">Wake Island</option>
+                                               
+                                                
+																								<option value="Wallis and Futuna Islands">Wallis and Futuna Islands</option>
+                                               
+                                                
+																								<option value="Yemen">Yemen</option>
+                                               
+                                                
+																								<option value="Zambia">Zambia</option>
+                                               
+                                                
+																								<option value="Zanzibar">Zanzibar</option>
+                                               
+                                                
+																								<option value="Zimbabwe">Zimbabwe</option>
+                                               
+                                                
+												</select>
+											
+											
+											
+                                        </div>
+                                    </div>
+									<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Date of Birth *<i id="nameerror10" class="alertmsg" ></i></label>
+                                            <input type="text" name='birtdhdate' id="datepicker" autocomplete="off" class="formlogin" readonly >
+                                        </div>
+                                    </div>
+									
+									
+									
+									 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                        <div class="hs_num_input_wrapper">
+                                            <label>Time of Birth *<i id="nameerror11" class="alertmsg" ></i></label>
+                                            <input type="text" name='birthtime' id="timepicker"  class="timepicker formlogin"" autocomplete="off" readonly>
+                                        </div>
+										
+                                    </div>
+									
+									 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><br>
+                                         <label>Are You Human?</label><br>
+                                              <input id="num1" class="formlogin3" type="text" name="num1" value="2" readonly="readonly" /> +
+<input id="num2" class="formlogin3 " type="text" name="num2" value="7" readonly="readonly" /> 
+=<input id="captcha" class="formlogin3" type="text" name="captcha" maxlength="2" placeholder="Enter captcha" /> <br>
+                                           &nbsp;&nbsp;<input class="btn btn-lg btn-block btn-primary" name="submit" type="submit"  value="Submit">
+								
+                                       
+										
+                                    </div><br>
+									               	</div>
+													
+													
+<script>
+ $(document).ready(function(){
+  var date_input=$('input[name="birtdhdate"]'); //our date input has the name "date"
+  var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+  date_input.datepicker({
+   format: 'mm/dd/yyyy',
+   container: container,
+   todayHighlight: true,
+   autoclose: true,
+  })
+
+  
+ })
+</script>
+	 <script>
+            $('.timepicker').wickedpicker({now: '0:00', twentyFour: false, title:
+                    'Birth Time', showSeconds: true});
+        //    $('.timepicker-24').wickedpicker({twentyFour: true});
+        </script>
+						
+			
+			
+			
+						</div>
+			
+			
+			
+			  			  
+			
+			  			  
+        </div>
+    </div> </div>
+    <!-- hs online slider wrapper Start -->
+	
+   
+    <!-- hs client slider wrapper End -->
+    <!-- hs online slider wrapper Start -->
+<!-- hs latest news wrapper End -->
+    <!-- hs Counter wrapper Start -->
+    <div class="hs_counter_main_wrapper">
+        <div class="hs_counter_cont_wrapper hs_counter_cont_wrapper1">
+            <div class="count-description">
+                
+                   <img src="../upload/Images/11.png" title="" alt="pandit ji on call">
+                
+                <h5 class="con1">Trusted by<br> Million Clients</h5>
+            </div>
+        </div>
+        <div class="hs_counter_cont_wrapper">
+            <div class="count-description">
+                 <img src="../upload/Images/22.png" alt="pandit ji on call">
+                <h5 class="con2">Privacy<br> Gauranteed
+                </h5>
+            </div>
+        </div>
+        <div class="hs_counter_cont_wrapper">
+            <div class="count-description">
+                <img src="../upload/Images/33.png" alt="pandit ji on call">
+                <h5 class="con3">Users from<br> Worldwide
+                </h5>
+            </div>
+        </div>
+        <div class="hs_counter_cont_wrapper">
+            <div class="count-description">
+                <img src="../upload/Images/44.png" alt="pandit ji on call">
+                <h5 class="con4">Effective <br> Solutions
+                </h5>
+            </div>
+        </div>
+        <div class="hs_counter_cont_wrapper hs_counter_cont_wrapper5">
+            <div class="count-description">
+                <img src="../upload/Images/22.png" alt="pandit ji on call">
+                <h5 class="con4">Safe and <br> Secure
+                </h5>
+            </div>
+        </div>
+
+        <div class="hs_counter_cont_wrapper hs_counter_cont_wrapper5">
+            <div class="count-description">
+                <img src="../upload/Images/verified.png" alt="pandit ji on call">
+                <h5 class="con4">Verified  <br> Pandit Ji
+                </h5>
+            </div>
+        </div>
+    </div>
+     <div class="hs_testi_slider_main_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="hs_about_heading_main_wrapper">
+                        <div class="hs_about_heading_wrapper">
+                            <h2 style="color: #f5f5f5">What clients <span style="color:#ff6347"> are saying</span></h2>
+                            <h4><span>&nbsp;</span></h4>
+                       </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="hs_testi_slider_wrapper">
+                        <div class="owl-carousel owl-theme">
+                        
+                                                    
+                    
+                     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    <!-- hs online slider wrapper End -->
+    <!-- hs footer wrapper Start -->
+    <div class="hs_footer_main_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="hs_footer_help_wrapper">
+                         <h2>About  <span>us</span></h2>
+						<br>
+						
+						
+                        <p>How about getting an instant solution to your issues with astrology consultation on the phone? Sounds amazing? You can now get answers to your long-standing issues by astrological experts at Panditji On Call. Speaking to our experienced and expert astrologers on the phone can help in resolving your life issues and getting the best solutions that change your life positively. </p>
+                        <h4><a href="../about-us.html">Read More <i class="fa fa-long-arrow-right"></i></a></h4>
+              
+                    </div>
+                </div>
+			
+				
+				
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="hs_footer_help_wrapper">
+                        <h2>Quick <span>Links</span></h2>
+						<br>
+						<ul style="float:left; text-align:left" >
+							<li><a href="../about-us.html"><i class="fa fa-caret-right" aria-hidden="true"></i> About Us</a></li>
+							<li><a href="../astrologerlist.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Our Astrologers</a></li>
+							<li><a href="../privacy-policy.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Privacy Policy</a></li>
+							<li><a href="../terms-conditions.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Terms and Conditions</a></li>
+							<li><a href="../contact.html"><i class="fa fa-caret-right" aria-hidden="true"></i> Contact Us</a></li>
+						
+						</ul>
+						
+						<div class="clearfix">&nbsp;</div><br> 
+					<ul style="float:left">
+					<li style="float:left; margin-left:5px"><img src="../assests/assets/images/header/paypal.png" alt="paypal"></li>
+					<li style="float:left;margin-left:5px"><img src="../assests/assets/images/header/mastro.png" alt="mastro"></li>
+					<li style="float:left;margin-left:5px"><img src="../assests/assets/images/header/discover.png" alt="discover"></li>
+					<li style="float:left;margin-left:5px"><img src="../assests/assets/images/header/visa.png" alt="visa"></li>
+				</ul>
+                    
+                    </div>
+                </div>
+				
+					
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="hs_footer_help_wrapper">
+                         <h2>Secu<span>re</span></h2>
+						<br>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><img src="../assests/moneyback.png" alt='pandit ji oncall'></div><div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 ">  <span style="font-size:16px; font-weight:700" >Privacy Protected </span><div style="font-size:13px;margin-top: -7px;">Guarantee</div></div>
+						<div class="clearfix">&nbsp;</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><img src="../assests/verify.png" alt='pandit ji oncall'></div><div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 ">  <span style="font-size:16px; font-weight:700">Verified Expert </span><div style="font-size: 13px;margin-top: -7px;">Pandit Ji</div></div>
+						<div class="clearfix">&nbsp;</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12"><img src="../assests/secure.png" alt='pandit ji oncall'> </div><div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 "> <span style="font-size:16px; font-weight:700">100% Secure </span><div style="font-size:13px;margin-top: -7px;">Payments</div></div>
+				
+                       
+                    </div>
+                </div>
+				
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                    <div class="hs_footer_contact_wrapper" >
+                        <h2>Contact <span>Us </span></h2>
+						 <p style="float:left;text-align:left;font-size:14px" class='res-cart-help'> 
+						
+                       Talk To Pandit Ji.:<span><a href="tel:+911416691111">+91-141-669-1111</a>(24*7)</span><br> 
+					  Customer Care.:<span style='font-size:14px'><a href="tel:+911416691112">+91-141-669-1112<br>(10 am – 6 pm , India)</a>Talk To Pandit Ji.</span><br>
+					   Whatsapp Customer Care. :<span><a href="http://api.whatsapp.com/send?phone=+919001720433&amp;text=">+919001720433</a>(24*7)</span><br>
+						Email : <a href="mailto:info@panditjioncall.com">info@panditjioncall.com</a>
+						
+						 </p>
+                        <div class="hs_footer_logo_wrapper"><ul>
+                            <li><a href="https://www.facebook.com/Panditjioncallofficial" target='new'><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://twitter.com/panditjioncall2" target='new'><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://www.instagram.com/panditjioncall/" target='new'><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/panditjioncall" target='new'><i class="fa fa-linkedin"></i></a></li>
+                        </ul></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hs footer wrapper End -->
+    <!-- hs bottom footer wrapper Start -->
+    <div class="hs_bottom_footer_main_wrapper">
+        <a href="javascript:" id="return-to-top"><i class="fa fa-angle-up"></i></a>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="footer_bottom_cont_wrapper">
+                        <p>© Copyright 2020 by Panditjioncall.com. All right Reserved <a style="
+    color: tomato;
+    margin-left: 14px;
+" href="https://panditjioncall.com/sitemap.xml">Sitemap</a></p>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+		  <link href="../assests/assets/fontawesome-web/css/fontawesome.css" rel="stylesheet">
+  <link href="../assests/assets/fontawesome-web/css/brands.css" rel="stylesheet">
+  <link href="../assests/assets/fontawesome-web/css/solid.css" rel="stylesheet">
+    <!--main js file end-->
+    <!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            whatsapp: "+919001720433", // WhatsApp number
+            call: "+911416691111", // Call phone number
+            call_to_action: "Consult Pandit Ji", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "right", // Position may be 'right' or 'left'
+            order: "call,whatsapp", // Order of buttons
+            button_bottom: "100px", // Order of buttons
+        };
+        var proto = document.location.protocol, host = "getbutton.io", url = proto + "//static." + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<style type="text/css">.iYciHm{margin-bottom: 85px}
+.fprIlH{display:none;}</style>
+<!-- /GetButton.io widget -->    <!-- hs bottom footer wrapper End -->
+    <!--main js file start-->
+		
+	</div>
+
+    <script src="../assests/assets/js/jquery_min.js"></script>
+    <script src="../assests/assets/js/bootstrap.js"></script>
+    <script src="../assests/assets/js/modernizr.js"></script>
+    <script src="../assests/assets/js/jquery.menu-aim.js"></script>
+    <script src="../assests/assets/js/parallax.min.js"></script>
+    <script src="../assests/assets/js/owl.carousel.js"></script>
+    <script src="../assests/assets/js/jquery.shuffle.min.js"></script>
+    <script src="../assests/assets/js/jquery.countTo.js"></script>
+    <script src="../assests/assets/js/jquery.inview.min.js"></script>
+    <script src="../assests/assets/js/jquery.magnific-popup.js"></script>
+    <script src="../assests/assets/js/custom.js"></script>
+    <!--main js file end-->
+	<link rel="stylesheet" href="../assests/assets/css/wickedpicker.css">
+    <script  src="../assests/assets/js/wickedpicker.js"></script>
+<link rel="stylesheet" href="../assests/assets/css/jquery-ui.css">
+
+
+  <script src="../assests/assets/js/jquery-ui.js"></script>
+	<script  src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+<script>
+ $(document).ready(function(){
+  var date_input=$('input[name="birtdhdate"]'); //our date input has the name "date"
+  var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+  date_input.datepicker({
+   format: 'mm/dd/yyyy',
+   container: container,
+   todayHighlight: true,
+   autoclose: true,
+  })
+
+  
+ })
+</script>
+	
+	 <script >
+            $('.timepicker').wickedpicker({now: '0:00', twentyFour: false, title:
+                    'Birth Time', showSeconds: true});
+        //    $('.timepicker-24').wickedpicker({twentyFour: true});
+        </script>
+
+
+
+<script>
+ $(document).ready(function(){
+  var date_input=$('input[name="girl_birthdate"]'); //our date input has the name "date"
+  var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+  date_input.datepicker({
+   format: 'mm/dd/yyyy',
+   container: container,
+   todayHighlight: true,
+   autoclose: true,
+  })
+
+  
+   var date_input=$('input[name="boy_birtdhdate"]'); //our date input has the name "date"
+  var container=$('.bootstrap-iso form').length>0 ? $('.bootstrap-iso form').parent() : "body";
+  date_input.datepicker({
+    format: 'mm/dd/yyyy',
+   container: container,
+   todayHighlight: true,
+   autoclose: true,
+  })
+  
+ })
+</script>
+	
+	
+</body>
+
+
+<!-- Mirrored from www.panditjioncall.com/services/gemstone-recommendation by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Dec 2020 10:03:52 GMT -->
+</html>
